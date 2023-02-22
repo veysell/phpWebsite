@@ -1,0 +1,19 @@
+RewriteEngine On
+ErrorDocument 404 /altınbaşakphp/error.php
+
+
+RewriteRule ^anasayfa index.php [L,NC]
+RewriteRule ^hakkimizda about.php [L,NC]
+RewriteRule ^dokumanlar document.php [L,NC]
+RewriteRule ^sürec process.php [L,NC]
+RewriteRule ^ekibimiz team.php [L,NC]
+RewriteRule ^yatay-isaretleme-isaretleri useful5.php [L,NC]
+RewriteRule ^tehlike-ve-uyari-isaretleri useful1.php [L,NC]
+RewriteRule ^trafik-tanzim-isaretleri useful2.php [L,NC]
+RewriteRule ^bilgi-isaretleri useful3.php [L,NC]
+RewriteRule ^durma-ve-parketme-isaretleri useful4.php [L,NC]
+RewriteRule ^gosterge-isaretleri useful6.php [L,NC]
+RewriteRule ^duyurular duyuru.php [L,NC]
+RewriteRule ^quiz quiz.php [L,NC]
+RewriteRule ^testler testler.php [L,NC]
+RewriteRule ^test test.php [L,NC]
